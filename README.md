@@ -29,9 +29,8 @@ Below are the dependencies and hardware used for the code:
 
 Following the training process, the following are the metrics:
 
-```
-Precision: 96%
-Recall: 92%
-Accuracy: 51.8%
-Average f1-score: 45%
-```
+|           | Micro Average | Macro Average |
+|-----------|---------------|---------------|
+| Precision | 53.5%         | 48.9%         |
+| Recall    | 44.6%         | 58.6%         |
+| f1-score  | 48.6%         | 53.3%         |
