@@ -3,6 +3,14 @@
 
  This repository stores the source code for a YOLOv8 Model that is trained to detect suitable classes. The model uses the [YOLOv8](https://github.com/ultralytics/ultralytics) architecture and the [Deepfashion2](https://github.com/switchablenorms/DeepFashion2) dataset. CUDA is required to run file.
 
+# How To Run
+
+ 1. Make sure that your opencv installation is correct for the system. If you are on windows, use ``opencv`` but if you're working on a Linux system, use ``opencv-headless`` instead.
+ 2. To use the model, script ``9_camera.ipynb`` is what you need.
+ 3. Model is provided in the folder ``11-24-2023-100epchs-nopre/weights/``, pick whether you want to use ``best.pt`` or ``latest.pt``. Change model settings in ``model_path``.
+ 4. Similar to the model settings, the ``args.yaml`` file is also provided in the ``11-24-2023-100epchs-nopre`` folder. Change the yaml settings in ``args_path``.
+ 5. Run ``9_camera.ipynb`` as a python notebook. To quit, press ``Q``
+
 Below are the dependencies and hardware used for the code:
 ## Python Libraries
 - Anaconda Navigator
